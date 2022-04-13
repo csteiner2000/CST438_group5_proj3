@@ -20,3 +20,5 @@ Room Databases tutorial - https://www.youtube.com/watch?v=qO56SL856xc&list=PLdHg
 Thymeleaf: https://www.thymeleaf.org/
 
 Heroku: https://www.heroku.com/
+
+![](https://i.imgur.com/QNCHC9a.jpg)
