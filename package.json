@@ -1,0 +1,24 @@
+{
+  "name": "cst438group5proj3web-1",
+  "version": "1.0.0",
+  "description": "Collaborators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csteiner2000/CST438_group5_proj3_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csteiner2000/CST438_group5_proj3_web/issues"
+  },
+  "homepage": "https://github.com/csteiner2000/CST438_group5_proj3_web#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
