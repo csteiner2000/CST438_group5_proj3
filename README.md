@@ -21,4 +21,12 @@ Thymeleaf: https://www.thymeleaf.org/
 
 Heroku: https://www.heroku.com/
 
-![](https://i.imgur.com/QNCHC9a.jpg)
+# ERD
+<hr>
+<img src='https://i.imgur.com/QNCHC9a.jpg' title='Video Walkthrough' width='1000' alt ='Video Walkthrough' />
+
+# Database/Tables
+<hr>
+<img src='https://i.imgur.com/CbYGWBp.png' title='Video Walkthrough' width='450' alt ='Video Walkthrough' />
+<img src='https://i.imgur.com/1tdrW4G.png' title='Video Walkthrough' width='450' alt ='Video Walkthrough' />
+<img src='https://i.imgur.com/tnZDuAq.png' title='Video Walkthrough' width='450' alt ='Video Walkthrough' />

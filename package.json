@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/csteiner2000/CST438_group5_proj3_web/issues"
   },
-  "homepage": "https://github.com/csteiner2000/CST438_group5_proj3_web#readme"
+  "homepage": "https://github.com/csteiner2000/CST438_group5_proj3_web#readme",
+  "devDependencies": {}
 }
