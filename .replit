@@ -1,2 +1,2 @@
-language = "Node.js"
+language = "nodejs-npm"
 run = ""
