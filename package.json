@@ -1,19 +1,30 @@
 {
-  "name": "lab6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "cst438-group5-proj3-web",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.7",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csteiner2000/CST438_group5_proj3_web.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "Faker": "^0.7.2",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "faker": "^5.5.3",
-    "inspirational-quotes": "^2.0.1",
-    "node-fetch": "^2.6.5"
-  }
+  "bugs": {
+    "url": "https://github.com/csteiner2000/CST438_group5_proj3_web/issues"
+  },
+  "homepage": "https://github.com/csteiner2000/CST438_group5_proj3_web#readme",
+  "description": ""
 }
