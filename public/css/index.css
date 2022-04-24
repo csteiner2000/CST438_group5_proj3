@@ -1,0 +1,15 @@
+body{
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+head{
+    background-color: white;
+}
+img {
+    opacity: 0.5;
+}
