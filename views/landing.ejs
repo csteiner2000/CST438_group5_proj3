@@ -13,12 +13,17 @@
 <body>
 <head>
     <nav class="navbar justify-content-between">
-            <header>
-                <h1>NoteTaker++</h1>
-            </header>
-
         <div>
-            <a href="/logout"><button class="btn btn-dark my-2 my-sm-0">Logout</button></a>
+            <a href="/landing"><h1>NoteTaker++</h1></a>
+        </div>
+        <div>
+            <form action="/addNote" method="GET">
+                <button class="btn btn-dark my-2 my-sm-0 m-2">Add Note</button>
+            </form>
+
+            <form action="/logout" method="GET">
+                <button class="btn btn-dark my-2 my-sm-0 m-2">Log Out</button>
+            </form>
         </div>
     </nav>
     <h2>Welcome <%= rows[0].username %></h2>

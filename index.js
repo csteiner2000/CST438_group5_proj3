@@ -8,6 +8,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 let currentUser = "";
+let currentUserName = "";
 let currentNote = "";
 
 //needed for express to get values from form using POST method
@@ -47,6 +48,7 @@ app.post('/login', async (req, res) => {
             if (rows[0].password == password) {
                 req.session.authenticated = true;
                 currentUser = rows[0].userId;
+                currentUserName = rows[0].username;
                 console.log(currentUser);
                 let sql2 = `SELECT * FROM notes WHERE userId = ${currentUser}`;
                 let notes = await executeSQL(sql2);
@@ -108,12 +110,35 @@ app.post('/editNote', async (req, res) =>{
     res.render('landing', {rows: rows});
 });
 
+app.get('/addnote', async(req,res)=>{
+    res.render('addnote');
+});
+app.post('/addnote', async(req,res)=>{
+    let ntitle = req.body.noteTitle;
+    let ntext = req.body.noteText;
+
+    console.log(ntitle, ntext);
+    console.log("GOT HERE");
+    console.log(currentUser);
+
+    let sql = "INSERT INTO notes (noteTitle, noteText, userId) VALUES (?,?,?)";
+    let params = [ntitle, ntext, currentUser];
+    let rows = await executeSQL(sql, params);
+
+    let sql2 = `SELECT * FROM notes WHERE userId = ${currentUser}`;
+    let notes = await executeSQL(sql2);
+
+    let sql5 = `SELECT * FROM user WHERE userId = ${currentUser}`;
+    rows = await executeSQL(sql5, [currentUserName]);
+
+    res.render('landing', {currentUser:currentUser, notes:notes, rows:rows});
+
+});
+
 app.get('/api/noteInfo', async (req, res) => {
     //searching quotes by authorId
     let note_id = req.query.noteId;
-    let sql = `SELECT *
-              FROM notes
-              WHERE noteId = ${note_id}`;
+    let sql = `SELECT * FROM notes WHERE noteId = ${note_id}`;
     let rows = await executeSQL(sql);
     res.send(rows);
 });
@@ -155,6 +180,6 @@ function dbConnection(){
 } //dbConnection
 
 //start server
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log("Welcome!\nExpress server running...")
 } )
