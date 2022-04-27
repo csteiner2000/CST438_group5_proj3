@@ -7,13 +7,10 @@ const pool = dbConnection();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-<<<<<<< Updated upstream
-=======
 let currentUser = "";
 let currentUserName = "";
 let currentNote = "";
 
->>>>>>> Stashed changes
 //needed for express to get values from form using POST method
 app.use(express.urlencoded({extended:true}));
 
@@ -40,21 +37,9 @@ app.get('/home', (req, res) => {
 
 app.post('/login', async (req, res) => {
 
-    let sql = "SELECT * FROM user";
-
-    let rows = await executeSQL(sql);
-
     let username = req.body.uName;
     let password = req.body.pWord;
 
-<<<<<<< Updated upstream
-    console.log(rows);
-    console.log(username);
-
-    for (let i=0; i < rows.length; i++) {
-        if (rows[i].username == username) {
-            res.redirect('concerts');
-=======
     let sql = `SELECT * FROM user WHERE username = ?`;
 
     let rows = await executeSQL(sql, [username]);
@@ -76,10 +61,8 @@ app.post('/login', async (req, res) => {
         {
             console.log('Login Error');
             res.render('login', {"error":"Invalid credentials "});
->>>>>>> Stashed changes
         }
     }
-    res.render('login', {"error":"Invalid credentials"})
 });
 
 
@@ -88,7 +71,6 @@ app.get('/signup', (req, res) => {
 });
 
 app.post('/signup', async (req, res) => {
-
     let username = req.body.uName;
     let password = req.body.pWord;
 
@@ -98,31 +80,36 @@ app.post('/signup', async (req, res) => {
     try {
         let rows = await executeSQL(sql, params);
     } catch (error) {
-        console.log('SQL Error')
+        console.log('SQL Error');
     }
 
     res.render('index', {'message':'User Added'});
 });
 
-app.get('/adminConcert', async(req,res)=>{
-    let location = req.body.location;
-    let bandName = req.body.bName;
-    let date = req.body.date;
-    let time = req.body.time;
-    // let ticketAmt = req.body.ticketAmt
-    res.render('adminConcert', {'message':'Concert Added'});
+app.get('/logout', (req, res) => {
+    req.session.authenticated = false;
+    req.session.destroy();
+    currentUser = "";
+    res.redirect('/');
 });
 
-app.get('/adminConcertInfo', async(req,res)=>{
-    // let ticketAmt = req.body.ticketAmt
-    res.render('adminConcertInfo');
+app.post('/deleteNote', async (req, res) =>{
+    let note_id = req.body.noteId;
+    //remove note from table
+    console.log(note_id);
+    let sql2 = `DELETE FROM notes WHERE noteId = ${note_id}`;
+    let rows3 = executeSQL(sql2);
+    //
+    let sql = `SELECT * FROM notes WHERE userId = ${currentUser}`;
+    let rows = await executeSQL(sql);
+    console.log("TSTEEEEE!");
+    res.render('landing', {rows: rows});
 });
 
-app.get('/concerts', async (req,res)=>{
+app.post('/editNote', async (req, res) =>{
+    res.render('landing', {rows: rows});
+});
 
-<<<<<<< Updated upstream
-    let sql = "SELECT * FROM concert";
-=======
 app.get('/addnote', async(req,res)=>{
     res.render('addnote');
 });
@@ -152,24 +139,20 @@ app.get('/api/noteInfo', async (req, res) => {
     //searching quotes by authorId
     let note_id = req.query.noteId;
     let sql = `SELECT * FROM notes WHERE noteId = ${note_id}`;
->>>>>>> Stashed changes
     let rows = await executeSQL(sql);
-
-    console.log(rows[0]);
-
-    res.render('concerts', {"concerts": rows});
+    res.send(rows);
 });
 
-app.get('/api/concert/:id', async (req, res) => {
+app.get('/api/note/:id', async (req, res) => {
     //searching quotes by authorId
-    let concert_id = req.params.id;
+    let note_id = req.params.id;
     let sql = `SELECT *
-              FROM concert
-              WHERE concertId=${concert_id}`;
+              FROM notes
+              WHERE noteId = ${note_id}`;
     let rows = await executeSQL(sql);
-    next();
+    //console.log(author_id);
+    res.send(rows);
 });
-
 
 async function executeSQL(sql, params){
     return new Promise (function (resolve, reject) {
@@ -184,7 +167,7 @@ function dbConnection(){
 
     const pool  = mysql.createPool({
 
-        connectionLimit: 10,
+        connectionLimit: 2,
         host: "td5l74lo6615qq42.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
         user: "rromzjicr1yn7h2v",
         password: "q66nhf8a4xwky6a7",
@@ -197,11 +180,6 @@ function dbConnection(){
 } //dbConnection
 
 //start server
-<<<<<<< Updated upstream
-app.listen(3000, () => {
-    console.log("Expresss server running...")
-=======
 app.listen(8080, () => {
     console.log("Welcome!\nExpress server running...")
->>>>>>> Stashed changes
 } )

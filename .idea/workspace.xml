@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428ed928-59ed-4aec-8e02-14955ccc3214" name="Changes" comment="">
-<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/proj1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
@@ -558,415 +561,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/map.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/math.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/observable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/reflect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/system.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/weak-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/es7/weak-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/copy-within.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/entries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/every.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/fill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/find-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/find.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/flat-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/flatten.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/for-each.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/is-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/join.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/last-index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/pop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/reduce-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/reduce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/reverse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/shift.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/some.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/splice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/unshift.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/values.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/copy-within.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/entries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/every.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/fill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/find-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/find.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/flat-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/flatten.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/for-each.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/join.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/last-index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/reduce-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/reduce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/some.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/values.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/asap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/clear-immediate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/now.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-iso-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-primitive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/dict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/dom-collections/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/dom-collections/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/error/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/error/is-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/has-instance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/name.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/part.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/part.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/get-iterator-method.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/get-iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/is-iterable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/json/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/json/stringify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/map/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/map/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/map/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/acosh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/asinh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/atanh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/cbrt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/clamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/clz32.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/cosh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/deg-per-rad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/degrees.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/expm1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/fround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/fscale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/hypot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/iaddh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/imul.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/imulh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/isubh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/log10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/log1p.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/log2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/rad-per-deg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/radians.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/sign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/signbit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/sinh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/tanh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/trunc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/math/umulh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/epsilon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-finite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-integer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-nan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-safe-integer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/max-safe-integer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/min-safe-integer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/parse-float.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/parse-int.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/to-fixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/to-precision.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/to-fixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/to-precision.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/assign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/classof.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-getter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-properties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-setter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/define.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/entries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/freeze.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-descriptor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-descriptors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-names.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-symbols.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-prototype-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-extensible.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-frozen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-sealed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/lookup-getter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/lookup-setter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/make.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/prevent-extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/seal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/set-prototype-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/object/values.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/observable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/parse-float.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/parse-int.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/promise/finally.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/promise/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/promise/try.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/apply.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/construct.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/define-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/define-property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/delete-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/delete-property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/enumerate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-metadata-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-metadata-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-property-descriptor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-prototype-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has-own-metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/is-extensible.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/metadata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/own-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/prevent-extensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/set-prototype-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/escape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/match.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/replace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/split.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/to-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set-immediate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set-interval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set-timeout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/set/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/big.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/blink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/bold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/code-point-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/ends-with.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/escape-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/fixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/fontcolor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/fontsize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/from-code-point.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/italics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/match-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/pad-end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/pad-start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/raw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/repeat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/small.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/starts-with.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/strike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/sub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/sup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-left.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/unescape-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/big.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/blink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/bold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/code-point-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/ends-with.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/escape-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fontcolor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fontsize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/italics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/match-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/pad-end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/pad-start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/repeat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/small.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/starts-with.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/strike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/sub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/sup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-left.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/unescape-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/async-iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/for.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/has-instance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/is-concat-spreadable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/key-for.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/match.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/observable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/replace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/species.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/split.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/to-primitive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/to-string-tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/unscopables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/system/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/system/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/array-buffer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/data-view.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/float32-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/float64-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int16-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int32-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int8-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint16-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint32-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint8-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint8-clamped-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/dict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/regexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/core/string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es5/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/math.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/parse-float.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/parse-int.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/reflect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/regexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/weak-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es6/weak-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/asap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/math.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/observable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/reflect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/system.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/weak-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/es7/weak-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/_.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/copy-within.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/entries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/every.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/fill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/find-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/find.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/flat-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/flatten.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/for-each.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/is-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/join.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/last-index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/pop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reduce-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reduce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reverse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/shift.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/some.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/splice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/unshift.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/values.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/copy-within.js" beforeDir="false" />
+      
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/entries.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/every.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/fill.js" beforeDir="false" />
@@ -1540,25 +1135,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.array.flatten.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.array.includes.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.asap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.error.is-error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.map.from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.map.of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.map.to-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.clamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.deg-per-rad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.degrees.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.fscale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.iaddh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.imulh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.isubh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.rad-per-deg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.radians.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.signbit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.math.umulh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.object.define-getter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.object.define-setter.js" beforeDir="false" />
+  
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.object.entries.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.object.lookup-getter.js" beforeDir="false" />
@@ -1580,82 +1157,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.set.of.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.set.to-json.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.match-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.pad-end.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.pad-start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.trim-left.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.string.trim-right.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.symbol.async-iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.symbol.observable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.system.global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.weak-map.from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.weak-map.of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.weak-set.from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/es7.weak-set.of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/web.dom.iterable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/web.immediate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/modules/web.timers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/stage/pre.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/web/dom-collections.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/web/immediate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/web/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/library/web/timers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_a-function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_a-number-value.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_add-to-unscopables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_advance-string-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_an-instance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_an-object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-copy-within.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-fill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-from-iterable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-includes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-reduce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-species-constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_array-species-create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_classof.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_cof.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_collection-strong.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_collection-to-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_collection-weak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_collection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_create-property.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_ctx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_date-to-iso-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_date-to-primitive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_defined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_descriptors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_dom-create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_entry-virtual.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_enum-bug-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_enum-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_export.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_fails-is-regexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_fails.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_fix-re-wks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_flatten-into-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_for-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_function-to-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_has.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_hide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_ie8-dom-define.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_inherit-if-required.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_invoke.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_iobject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_is-array-iter.js" beforeDir="false" />
+     
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_is-array.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_is-integer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/_is-object.js" beforeDir="false" />
@@ -4675,20 +4177,33 @@
       <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/notes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/notes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/landing.ejs" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -4725,15 +4240,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650516806513</updated>
-<<<<<<< Updated upstream
+      <workItem from="1650516808791" duration="1041000" />
+      <workItem from="1650583699681" duration="12105000" />
+      <workItem from="1650769190904" duration="827000" />
       <workItem from="1650516808791" duration="926000" />
-=======
       <workItem from="1650516808791" duration="1041000" />
       <workItem from="1650583699681" duration="12105000" />
       <workItem from="1650769190904" duration="827000" />
       <workItem from="1651010404245" duration="377000" />
       <workItem from="1651014434065" duration="3487000" />
->>>>>>> Stashed changes
     </task>
     <servers />
   </component>
