@@ -7,6 +7,13 @@ const pool = dbConnection();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+<<<<<<< Updated upstream
+=======
+let currentUser = "";
+let currentUserName = "";
+let currentNote = "";
+
+>>>>>>> Stashed changes
 //needed for express to get values from form using POST method
 app.use(express.urlencoded({extended:true}));
 
@@ -40,12 +47,36 @@ app.post('/login', async (req, res) => {
     let username = req.body.uName;
     let password = req.body.pWord;
 
+<<<<<<< Updated upstream
     console.log(rows);
     console.log(username);
 
     for (let i=0; i < rows.length; i++) {
         if (rows[i].username == username) {
             res.redirect('concerts');
+=======
+    let sql = `SELECT * FROM user WHERE username = ?`;
+
+    let rows = await executeSQL(sql, [username]);
+
+        try {
+            if (rows[0].password == password) {
+                req.session.authenticated = true;
+                currentUser = rows[0].userId;
+                currentUserName = rows[0].username;
+                console.log(currentUser);
+                let sql2 = `SELECT * FROM notes WHERE userId = ${currentUser}`;
+                let notes = await executeSQL(sql2);
+                console.log(notes);
+                console.log(rows);
+                res.render('landing', {currentUser:currentUser, notes:notes, rows:rows});
+            }
+    }
+    catch(e){
+        {
+            console.log('Login Error');
+            res.render('login', {"error":"Invalid credentials "});
+>>>>>>> Stashed changes
         }
     }
     res.render('login', {"error":"Invalid credentials"})
@@ -89,7 +120,39 @@ app.get('/adminConcertInfo', async(req,res)=>{
 
 app.get('/concerts', async (req,res)=>{
 
+<<<<<<< Updated upstream
     let sql = "SELECT * FROM concert";
+=======
+app.get('/addnote', async(req,res)=>{
+    res.render('addnote');
+});
+app.post('/addnote', async(req,res)=>{
+    let ntitle = req.body.noteTitle;
+    let ntext = req.body.noteText;
+
+    console.log(ntitle, ntext);
+    console.log("GOT HERE");
+    console.log(currentUser);
+
+    let sql = "INSERT INTO notes (noteTitle, noteText, userId) VALUES (?,?,?)";
+    let params = [ntitle, ntext, currentUser];
+    let rows = await executeSQL(sql, params);
+
+    let sql2 = `SELECT * FROM notes WHERE userId = ${currentUser}`;
+    let notes = await executeSQL(sql2);
+
+    let sql5 = `SELECT * FROM user WHERE userId = ${currentUser}`;
+    rows = await executeSQL(sql5, [currentUserName]);
+
+    res.render('landing', {currentUser:currentUser, notes:notes, rows:rows});
+
+});
+
+app.get('/api/noteInfo', async (req, res) => {
+    //searching quotes by authorId
+    let note_id = req.query.noteId;
+    let sql = `SELECT * FROM notes WHERE noteId = ${note_id}`;
+>>>>>>> Stashed changes
     let rows = await executeSQL(sql);
 
     console.log(rows[0]);
@@ -134,6 +197,11 @@ function dbConnection(){
 } //dbConnection
 
 //start server
+<<<<<<< Updated upstream
 app.listen(3000, () => {
     console.log("Expresss server running...")
+=======
+app.listen(8080, () => {
+    console.log("Welcome!\nExpress server running...")
+>>>>>>> Stashed changes
 } )
