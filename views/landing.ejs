@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NoteTaker++</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/notes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+<head>
+    <nav class="navbar justify-content-between">
+        <div>
+            <a href="/landing"><h1>NoteTaker++</h1></a>
+        </div>
+        <div>
+            <form action="/addNote" method="GET">
+                <button class="btn btn-dark my-2 my-sm-0 m-2">Add Note</button>
+            </form>
+
+            <form action="/logout" method="GET">
+                <button class="btn btn-dark my-2 my-sm-0 m-2">Log Out</button>
+            </form>
+        </div>
+    </nav>
+    <h2>Welcome <%= rows[0].username %></h2>
+
+    <section id="noteList">
+        <% for(i of notes) {%>
+            <a href="#" id="<%= i.noteId %>">
+                <%= i.noteTitle %>
+            </a><br>
+        <% } %>
+    </section>
+
+
+    <div id="noteModal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- info goes here -->
+                    <section id="noteInfo"></section>
+                </div>
+                <div class="modal-footer">
+                    <form action="/editNote" method="GET">
+                        <button type="submit" class="btn btn-primary" id="editBtn" data-bs-dismiss="modal">Edit Note</button>
+                    </form>
+                    <form action="/deleteNote" method="POST">
+                        <button type="submit" class="btn btn-primary" id="deleteBtn" data-bs-dismiss="modal">Delete Note</button>
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+</head>
+    <script src="/js/main.js"></script>
+</body>
+</html>
