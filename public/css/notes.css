@@ -9,7 +9,7 @@ nav{
 #noteList{
     display: flex;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 24px;
     justify-content: center;
     flex-direction: column;
 }

@@ -16,11 +16,12 @@
     "url": "https://github.com/csteiner2000/CST438_group5_proj3_web/issues"
   },
   "homepage": "https://github.com/csteiner2000/CST438_group5_proj3_web#readme",
-  "description": "",
+  "description": "Collaborators",
   "dependencies": {
     "ejs": "^3.1.7",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {}
 }
