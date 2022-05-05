@@ -32,7 +32,11 @@
         <% for(i of notes) {%>
             <a href="#" id="<%= i.noteId %>">
                 <%= i.noteTitle %>
-            </a><br>
+            </a>
+            <form action="/deleteNote" method="POST">
+                <button class="btn btn-danger"> - </button>
+                <input type="text" id="noteId" name="noteId" value="<%= i.noteId %>"></input>
+            </form><br>
         <% } %>
     </section>
 
@@ -52,9 +56,6 @@
                     <form action="/editNote" method="GET">
                         <button type="submit" class="btn btn-primary" id="editBtn" data-bs-dismiss="modal">Edit Note</button>
                     </form>
-                    <form action="/deleteNote" method="POST">
-                        <button type="submit" class="btn btn-primary" id="deleteBtn" data-bs-dismiss="modal">Delete Note</button>
-                    </form>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -64,5 +65,6 @@
     <hr>
 </head>
     <script src="/js/main.js"></script>
+    <script src="/js/delete.js"></script>
 </body>
 </html>

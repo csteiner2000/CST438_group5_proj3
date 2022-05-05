@@ -49,11 +49,8 @@ app.post('/login', async (req, res) => {
                 req.session.authenticated = true;
                 currentUser = rows[0].userId;
                 currentUserName = rows[0].username;
-                console.log(currentUser);
                 let sql2 = `SELECT * FROM notes WHERE userId = ${currentUser}`;
                 let notes = await executeSQL(sql2);
-                console.log(notes);
-                console.log(rows);
                 res.render('landing', {currentUser:currentUser, notes:notes, rows:rows});
             }
     }
@@ -93,19 +90,6 @@ app.get('/logout', (req, res) => {
     res.redirect('/');
 });
 
-app.post('/deleteNote', async (req, res) =>{
-    let note_id = req.body.noteId;
-    //remove note from table
-    console.log(note_id);
-    let sql2 = `DELETE FROM notes WHERE noteId = ${note_id}`;
-    let rows3 = executeSQL(sql2);
-    //
-    let sql = `SELECT * FROM notes WHERE userId = ${currentUser}`;
-    let rows = await executeSQL(sql);
-    console.log("TSTEEEEE!");
-    res.render('landing', {rows: rows});
-});
-
 app.post('/editNote', async (req, res) =>{
     res.render('landing', {rows: rows});
 });
@@ -116,10 +100,6 @@ app.get('/addnote', async(req,res)=>{
 app.post('/addnote', async(req,res)=>{
     let ntitle = req.body.noteTitle;
     let ntext = req.body.noteText;
-
-    console.log(ntitle, ntext);
-    console.log("GOT HERE");
-    console.log(currentUser);
 
     let sql = "INSERT INTO notes (noteTitle, noteText, userId) VALUES (?,?,?)";
     let params = [ntitle, ntext, currentUser];
@@ -132,7 +112,20 @@ app.post('/addnote', async(req,res)=>{
     rows = await executeSQL(sql5, [currentUserName]);
 
     res.render('landing', {currentUser:currentUser, notes:notes, rows:rows});
+});
 
+app.post('/deleteNote', async (req, res) =>{
+    let noteId = req.body.noteId;
+
+    //find what note is trying to be deleted
+    let selectNote = `SELECT * FROM notes WHERE noteId=${noteId}`;
+    let rows2 = await executeSQL(selectNote);
+
+    //delete note from table
+    let deleteSQL = `DELETE FROM notes WHERE noteId=${noteId}`;
+    let rows1 = await executeSQL(deleteSQL);
+
+    res.render('index');
 });
 
 app.get('/api/noteInfo', async (req, res) => {
@@ -149,6 +142,15 @@ app.get('/api/note/:id', async (req, res) => {
     let sql = `SELECT *
               FROM notes
               WHERE noteId = ${note_id}`;
+    let rows = await executeSQL(sql);
+    //console.log(author_id);
+    res.send(rows);
+});
+
+app.get('/api/allUsers', async (req, res) => {
+
+    let sql = `SELECT *
+              FROM user`;
     let rows = await executeSQL(sql);
     //console.log(author_id);
     res.send(rows);
