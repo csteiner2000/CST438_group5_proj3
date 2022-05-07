@@ -185,3 +185,7 @@ function dbConnection(){
 app.listen(8080, () => {
     console.log("Welcome!\nExpress server running...")
 } )
+
+// use this when pushing to heroku instead of the
+// settings above
+//app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
