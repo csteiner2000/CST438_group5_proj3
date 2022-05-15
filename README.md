@@ -11,15 +11,9 @@ Description: For this project our team will develop a Notepad application where 
 
 API: In Progress
 
-Room Databases tutorial - https://www.youtube.com/watch?v=qO56SL856xc&list=PLdHg5T0SNpN3CMNtsd5KGaiBtzhTGIwtC
-
 Resources: REST API - https://www.youtube.com/watch?v=xPi-z3nOcn8
 
-Retrofit: https://guides.codepath.com/android/consuming-apis-with-retrofit
-
 OAuth2: https://developer.android.com/training/id-auth/authenticate
-
-Android Security library: https://developer.android.com/jetpack/androidx/releases/security
 
 # ERD
 <hr>
