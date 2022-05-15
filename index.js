@@ -22,6 +22,9 @@ app.use(session({
     cookie: { secure: true }
 }))
 
+// add api routes used by android
+require('./api.js')(app)
+
 //routes
 app.get('/', (req, res) => {
     res.render('index');
