@@ -41,6 +41,13 @@ module.exports = function(app) {
         let rows = await executeSQL(sql, [userId])
         res.send(rows)
     });
+
+    app.get('/api/note/timestamp', async (req, res) => {
+        let noteId = req.query.noteId
+        let sql = `SELECT editTime FROM notes WHERE noteId = ?`
+        let rows = await executeSQL(sql, [noteId])
+        res.send(rows[0])
+    });
 }
 
 async function executeSQL(sql, params){
